@@ -3,7 +3,7 @@ on: # rebuild any PRs and main branch changes
   pull_request:
   push:
     branches:
-      - main
+      - fork
       - 'releases/*'
 
 jobs:
@@ -32,7 +32,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: ./
         with:
-          pattern: '\[(BUGFIX|DOCS|FEATURE|TASK)\] .+$'
-          error: 'Your first line has to contain a commit type like "[BUGFIX]".'
+          pattern: '^(chore|bump|fix|feature).+$'
+          error: 'Your first line has to contain a commit type like "feature".'
           checkAllCommitMessages: 'true'
           accessToken: ${{ secrets.GITHUB_TOKEN }}
