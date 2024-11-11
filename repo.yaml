@@ -1,0 +1,12 @@
+name: commit-message-checker
+license: mit
+description: >
+  Forked for maintenance. GitHub Action to check commit messages against a regex pattern.
+type: other
+codeowners:
+  - pattern: '*'
+    owners:
+      - '@mhitza'
+
+github:
+  default_branch: fork
