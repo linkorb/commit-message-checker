@@ -8,5 +8,7 @@ codeowners:
     owners:
       - '@mhitza'
 
+visibility: public
+
 github:
   default_branch: fork

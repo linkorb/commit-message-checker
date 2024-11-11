@@ -65,6 +65,12 @@ More information about `pattern` and `flags` can be found in the
 Default behavior is to include the description and title and not check pull
 request commit messages.
 
+## Contributing
+
+We welcome contributions to make this repository even better. Whether it's fixing a bug, adding a feature, or improving documentation, your help is highly appreciated. To get started, fork this repository then clone your fork.
+
+Be sure to familiarize yourself with LinkORB's [Contribution Guidelines](/CONTRIBUTING.md) for our standards around commits, branches, and pull requests, as well as our [code of conduct](/.github/CODE_OF_CONDUCT.md) before submitting any changes.
+
 ## Brought to you by the LinkORB Engineering team
 
 <img src="http://www.linkorb.com/d/meta/tier1/images/linkorbengineering-logo.png" width="200px" /><br />
