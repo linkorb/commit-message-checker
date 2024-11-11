@@ -1,6 +1,6 @@
 {
-  "name": "@gsactions/commit-message-checker",
-  "version": "3.0.0",
+  "name": "@linkorb/commit-message-checker",
+  "version": "1.0.0",
   "description": "GitHub Action that checks commit messages of pushes and pull request against a regex pattern",
   "keywords": [
     "github",
@@ -11,10 +11,7 @@
     "request",
     "push"
   ],
-  "homepage": "https://github.com/GsActions/commit-message-checker#readme",
-  "bugs": {
-    "url": "https://github.com/GsActions/commit-message-checker/issues"
-  },
+  "homepage": "https://github.com/linkorb/commit-message-checker#readme",
   "license": "MIT",
   "author": "Simon Gilli <ghactions@gilbertsoft.org> (https://gilbertsoft.org)",
   "files": [
@@ -25,7 +22,7 @@
   "main": "lib/main.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/GsActions/commit-message-checker.git"
+    "url": "https://github.com/linkorb/commit-message-checker.git"
   },
   "scripts": {
     "build": "tsc",
